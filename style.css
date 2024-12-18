@@ -7,7 +7,6 @@ body {
 }
 
 .profile-container {
-  max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   background: #fff;
@@ -23,12 +22,12 @@ body {
 }
 
 .avatar {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   overflow: hidden;
   margin-right: 15px;
-  border: 2px solid #ddd;
+  border: 1px solid #ddd;
 }
 
 .avatar img {
@@ -59,7 +58,7 @@ body {
 
 /* Footer Menu */
 .footer-menu {
-  width: 100%;
+  width: 100vw;
   bottom: 0;
   position: fixed;
   display: flex;
