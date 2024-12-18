@@ -1,0 +1,87 @@
+/* Жалпы стили */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.profile-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* User Info */
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 15px;
+  border: 2px solid #ddd;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-data p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+#user-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#user-username {
+  color: #555;
+}
+
+/* Content */
+.content {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Footer Menu */
+.footer-menu {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-menu button {
+  flex: 2;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.footer-menu button:hover {
+  background: #0056b3;
+}
